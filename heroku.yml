@@ -1,5 +1,5 @@
 build:
   docker:
     web: Dockerfile
-  run:
-    web: bin/go-cicd server
+run:
+  web: bin/go-cicd server
