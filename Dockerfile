@@ -19,4 +19,4 @@ RUN chmod +x ./go-cicd
 
 EXPOSE 8080
 
-CMD ["./go-cicd", "server"]
+CMD ./go-cicd server
