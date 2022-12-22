@@ -14,5 +14,5 @@ WORKDIR /app
 
 COPY --from=builder /app/echo-cicd /usr/bin/
 
-ENTRYPOINT ["echo-cicd"]
+ENTRYPOINT ["echo-cicd", "server"]
 
